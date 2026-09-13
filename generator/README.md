@@ -46,7 +46,7 @@ python generate_all.py sample_data/info.json sample_data/line_label_template.svg
   B→A) — tell me if that's wrong and I'll key it by direction instead.
 - **Direction**: `line-definition[line]` is the forward/"Aller" (`A`)
   order; reversed is "Retour" (`R`). Pattern/direction ids look like
-  `L-1_A_15` (line, direction, cadence).
+  `L-1_A_15` (line, direction, time_interval).
 - **Skipping stops**: each `Line-info-<tier>[line]` may optionally carry
   `"skipped_station": ["S-3", ...]`. A skipped station gets no dwell
   time — the travel time across it is just the sum of the surrounding
@@ -57,7 +57,7 @@ python generate_all.py sample_data/info.json sample_data/line_label_template.svg
   stop's arrival and the last stop's departure are `null` (a train
   doesn't "arrive" at its origin or "depart" from its terminus).
 - **`timetables`** are the concrete missions: every departure from
-  `first_departure` to `last_departure`, stepped by `cadence`, with the
+  `first_departure` to `last_departure`, stepped by `time_interval`, with the
   pattern's relative offsets converted into absolute `HH:MM:SS` clock
   times for that specific run.
 - A station's `directions` map lists, for every pattern that stops
@@ -87,7 +87,7 @@ to change without touching the logic:
    `config.py`).
 5. **`departure_time`** (the int field on a pattern, distinct from
    `first_departure`/`last_departure`): interpreted as the phase offset
-   in minutes — `starting time mod cadence` — i.e. which minute of each
+   in minutes — `starting time mod time_interval` — i.e. which minute of each
    cycle trains depart on.
 6. **`landmark-id`** isn't used by either output yet since neither
    spec'd file references landmarks. Let me know what it should feed

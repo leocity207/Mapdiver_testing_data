@@ -29,7 +29,7 @@
         "L-27",
         "L-28",
         "L-29",
-        "L-30",
+        "L-30"
     ],
     "stations-id":[
         "S-1",
@@ -108,6 +108,38 @@
             "S-36",
             "S-37"]
     },
+    "line-colors": {
+        "L-1": "#ff0a0aff",
+        "L-2": "#0a37ffff",
+        "L-3": "#fffb0aff",
+        "L-4": "#ce3636ff",
+        "L-5": "#ce5d36ff",
+        "L-6": "#cea036ff",
+        "L-7": "#cecd36ff",
+        "L-8": "#bfce36ff",
+        "L-9": "#88ce36ff",
+        "L-10": "#4fce36ff",
+        "L-11": "#36ce52ff",
+        "L-12": "#36ce62ff",
+        "L-13": "#36ce7fff",
+        "L-14": "#36ceb6ff",
+        "L-15": "#36b8ceff",
+        "L-16": "#3685ceff",
+        "L-17": "#3644ceff",
+        "L-18": "#4d36ceff",
+        "L-19": "#6636ceff",
+        "L-20": "#9236ceff",
+        "L-21": "#b936ceff",
+        "L-22": "#ce36c0ff",
+        "L-23": "#ce369aff",
+        "L-24": "#ce367fff",
+        "L-25": "#ce365fff",
+        "L-26": "#ce3638ff",
+        "L-27": "#c2c2c2ff",
+        "L-28": "#828282ff",
+        "L-29": "#4d4d4dff",
+        "L-30": "#181818ff"
+    },
     "interstation-plan": [
         ["S-1","S-2",5],
         ["S-2","S-3",12],
@@ -144,7 +176,7 @@
         ["S-33","S-34",2],
         ["S-34","S-35",2],
         ["S-35","S-36",1],
-        ["S-36","S-37",1],
+        ["S-36","S-37",1]
     ],
     "station-stop-time": {
         "S-1":1,
@@ -191,181 +223,296 @@
     "station-naming-exception": {
         "S-5": "Station-5 with very long subtext to test if we can print it correctly"
     },
-    "Line-info-local": {
-        "L-1":{
-            "cadence": 15,
-            "starting": "8:12:00",
-            "ending": "23:45:12"
-        },
-        "L-2":{
-            "cadence": 20,
-            "starting": "8:30:00",
-            "ending": "23:30:00"
-        },
-        "L-3":{
-            "cadence": 30,
-            "starting": ":0:00",
-            "ending": "24:00:00"
-        },
-        "L-4":{
-            "cadence": 60,
+    "Line-info": {
+        "L-1":[{
+                "time_interval": 15,
+                "starting": "8:12:00",
+                "ending": "23:45:00",
+                "stop_pattern": "local",
+                "calendar_patterns": ["weekday","weekend"],
+                "is_reversed": false
+            },{
+                "time_interval": 15,
+                "starting": "8:45:00",
+                "ending": "23:45:00",
+                "stop_pattern": "local",
+                "calendar_patterns": ["weekday","weekend"],
+                "is_reversed": true
+            },{
+                "time_interval": 60,
+                "starting": "8:50:00",
+                "ending": "23:45:00",
+                "stop_pattern": "express",
+                "calendar_patterns": ["weekday","weekend"],
+                "is_reversed": false
+             },{
+                "time_interval": 60,
+                "starting": "8:21:00",
+                "ending": "23:21:00",
+                "stop_pattern": "express",
+                "calendar_patterns": ["weekday","weekend"],
+                "is_reversed": true
+             },{
+                "time_interval": 120,
+                "starting": "8:42:00",
+                "ending": "23:42:00",
+                "stop_pattern": "rapid",
+                "calendar_patterns": ["weekend"],
+                "is_reversed": false
+            },{
+                "time_interval": 120,
+                "starting": "8:42:00",
+                "ending": "23:42:00",
+                "stop_pattern": "rapid",
+                "calendar_patterns": ["weekend"],
+                "is_reversed": true
+            }],
+        "L-2":[{
+                "time_interval": 20,
+                "starting": "8:30:00",
+                "ending": "23:30:00",
+                "stop_pattern": "local",
+                "calendar_patterns": ["weekday","weekend"],
+                "is_reversed": false
+            },{
+                "time_interval": 20,
+                "starting": "8:57:00",
+                "ending": "23:57:00",
+                "stop_pattern": "local",
+                "calendar_patterns": ["weekday","weekend"],
+                "is_reversed": true
+            },{
+                "time_interval": 60,
+                "starting": "8:37:00",
+                "ending": "23:30:00",
+                "stop_pattern": "express",
+                "calendar_patterns": ["weekday"],
+                "is_reversed": false
+            },{
+                "time_interval": 60,
+                "starting": "8:37:00",
+                "ending": "23:30:00",
+                "stop_pattern": "express",
+                "calendar_patterns": ["weekday"],
+                "is_reversed": true
+            }],
+        "L-3":[{
+                "time_interval": 30,
+                "starting": "00:00:00",
+                "ending": "24:00:00",
+                "stop_pattern": "local",
+                "calendar_patterns": ["weekday","weekend"],
+                "is_reversed": false
+            },{
+                "time_interval": 30,
+                "starting": "00:12:00",
+                "ending": "24:12:00",
+                "stop_pattern": "local",
+                "calendar_patterns": ["weekday","weekend"],
+                "is_reversed": true
+            },{
+                "time_interval": 60,
+                "starting": "5:25:00",
+                "ending": "23:25:00",
+                "stop_pattern": "rapid",
+                "calendar_patterns": ["weekday"],
+                "is_reversed": false
+            },{
+                "time_interval": 60,
+                "starting": "5:06:00",
+                "ending": "23:06:00",
+                "stop_pattern": "rapid",
+                "calendar_patterns": ["weekday"],
+                "is_reversed": true
+            }],
+        "L-4":[{
+            "time_interval": 60,
             "starting": "0:0:0",
-            "endin": "24:0:0"
-        },
-        "L-5":{
-            "cadence": 60,
+            "endin": "24:0:0",
+            "stop_pattern": "local",
+            "calendar_patterns": ["weekday"]
+        }],
+        "L-5":[{
+            "time_interval": 60,
             "starting": "0:0:0",
-            "endin": "24:0:0"
-        },
-        "L-6":{
-            "cadence": 60,
+            "endin": "24:0:0",
+            "stop_pattern": "local",
+            "calendar_patterns": ["weekday"]
+        }],
+        "L-6":[{
+            "time_interval": 60,
             "starting": "0:0:0",
-            "endin": "24:0:0"
-        },
-        "L-7":{
-            "cadence": 60,
+            "endin": "24:0:0",
+            "stop_pattern": "local",
+            "calendar_patterns": ["weekday"]
+        }],
+        "L-7":[{
+            "time_interval": 60,
             "starting": "0:0:0",
-            "endin": "24:0:0"
-        },
-        "L-8":{
-            "cadence": 60,
+            "endin": "24:0:0",
+            "stop_pattern": "local",
+            "calendar_patterns": ["weekday"]
+        }],
+        "L-8":[{
+            "time_interval": 60,
             "starting": "0:0:0",
-            "endin": "24:0:0"
-        },
-        "L-9":{
-            "cadence": 60,
+            "endin": "24:0:0",
+            "stop_pattern": "local",
+            "calendar_patterns": ["weekday"]
+        }],
+        "L-9":[{
+            "time_interval": 60,
             "starting": "0:0:0",
-            "endin": "24:0:0"
-        },
-        "L-10":{
-            "cadence": 60,
+            "endin": "24:0:0",
+            "stop_pattern": "local",
+            "calendar_patterns": ["weekday"]
+        }],
+        "L-10":[{
+            "time_interval": 60,
             "starting": "0:0:0",
-            "endin": "24:0:0"
-        },
-        "L-11":{
-            "cadence": 60,
+            "endin": "24:0:0",
+            "stop_pattern": "local",
+            "calendar_patterns": ["weekday"]
+        }],
+        "L-11":[{
+            "time_interval": 60,
             "starting": "0:0:0",
-            "endin": "24:0:0"
-        },
-        "L-12":{
-            "cadence": 60,
+            "endin": "24:0:0",
+            "stop_pattern": "local",
+            "calendar_patterns": ["weekday"]
+        }],
+        "L-12":[{
+            "time_interval": 60,
             "starting": "0:0:0",
-            "endin": "24:0:0"
-        },
-        "L-13":{
-            "cadence": 60,
+            "endin": "24:0:0",
+            "stop_pattern": "local",
+            "calendar_patterns": ["weekday"]
+        }],
+        "L-13":[{
+            "time_interval": 60,
             "starting": "0:0:0",
-            "endin": "24:0:0"
-        },
-        "L-14":{
-            "cadence": 60,
+            "endin": "24:0:0",
+            "stop_pattern": "local",
+            "calendar_patterns": ["weekday"]
+        }],
+        "L-14":[{
+            "time_interval": 60,
             "starting": "0:0:0",
-            "endin": "24:0:0"
-        },
-        "L-15":{
-            "cadence": 60,
+            "endin": "24:0:0",
+            "stop_pattern": "local",
+            "calendar_patterns": ["weekday"]
+        }],
+        "L-15":[{
+            "time_interval": 60,
             "starting": "0:0:0",
-            "endin": "24:0:0"
-        },
-        "L-16":{
-            "cadence": 60,
+            "endin": "24:0:0",
+            "stop_pattern": "local",
+            "calendar_patterns": ["weekday"]
+        }],
+        "L-16":[{
+            "time_interval": 60,
             "starting": "0:0:0",
-            "endin": "24:0:0"
-        },
-        "L-17":{
-            "cadence": 60,
+            "endin": "24:0:0",
+            "stop_pattern": "local",
+            "calendar_patterns": ["weekday"]
+        }],
+        "L-17":[{
+            "time_interval": 60,
             "starting": "0:0:0",
-            "endin": "24:0:0"
-        },
-        "L-18":{
-            "cadence": 60,
+            "endin": "24:0:0",
+            "stop_pattern": "local",
+            "calendar_patterns": ["weekday"]
+        }],
+        "L-18":[{
+            "time_interval": 60,
             "starting": "0:0:0",
-            "endin": "24:0:0"
-        },
-        "L-19":{
-            "cadence": 60,
+            "endin": "24:0:0",
+            "stop_pattern": "local",
+            "calendar_patterns": ["weekday"]
+        }],
+        "L-19":[{
+            "time_interval": 60,
             "starting": "0:0:0",
-            "endin": "24:0:0"
-        },
-        "L-20":{
-            "cadence": 60,
+            "endin": "24:0:0",
+            "stop_pattern": "local",
+            "calendar_patterns": ["weekday"]
+        }],
+        "L-20":[{
+            "time_interval": 60,
             "starting": "0:0:0",
-            "endin": "24:0:0"
-        },
-        "L-21":{
-            "cadence": 60,
+            "endin": "24:0:0",
+            "stop_pattern": "local",
+            "calendar_patterns": ["weekday"]
+        }],
+        "L-21":[{
+            "time_interval": 60,
             "starting": "0:0:0",
-            "endin": "24:0:0"
-        },
-        "L-22":{
-            "cadence": 60,
+            "endin": "24:0:0",
+            "stop_pattern": "local",
+            "calendar_patterns": ["weekday"]
+        }],
+        "L-22":[{
+            "time_interval": 60,
             "starting": "0:0:0",
-            "endin": "24:0:0"
-        },
-        "L-23":{
-            "cadence": 60,
+            "endin": "24:0:0",
+            "stop_pattern": "local",
+            "calendar_patterns": ["weekday"]
+        }],
+        "L-23":[{
+            "time_interval": 60,
             "starting": "0:0:0",
-            "endin": "24:0:0"
-        },
-        "L-24":{
-            "cadence": 60,
+            "endin": "24:0:0",
+            "stop_pattern": "local",
+            "calendar_patterns": ["weekday"]
+        }],
+        "L-24":[{
+            "time_interval": 60,
             "starting": "0:0:0",
-            "endin": "24:0:0"
-        },
-        "L-25":{
-            "cadence": 60,
+            "endin": "24:0:0",
+            "stop_pattern": "local",
+            "calendar_patterns": ["weekday"]
+        }],
+        "L-25":[{
+            "time_interval": 60,
             "starting": "0:0:0",
-            "endin": "24:0:0"
-        },
-        "L-26":{
-            "cadence": 60,
+            "endin": "24:0:0",
+            "stop_pattern": "local",
+            "calendar_patterns": ["weekday"]
+        }],
+        "L-26":[{
+            "time_interval": 60,
             "starting": "0:0:0",
-            "endin": "24:0:0"
-        },
-        "L-27":{
-            "cadence": 60,
+            "endin": "24:0:0",
+            "stop_pattern": "local",
+            "calendar_patterns": ["weekday"]
+        }],
+        "L-27":[{
+            "time_interval": 60,
             "starting": "0:0:0",
-            "endin": "24:0:0"
-        },
-        "L-28":{
-            "cadence": 60,
+            "endin": "24:0:0",
+            "stop_pattern": "local",
+            "calendar_patterns": ["weekday"]
+        }],
+        "L-28":[{
+            "time_interval": 60,
             "starting": "0:0:0",
-            "endin": "24:0:0"
-        },
-        "L-29":{
-            "cadence": 60,
+            "endin": "24:0:0",
+            "stop_pattern": "local",
+            "calendar_patterns": ["weekday"]
+        }],
+        "L-29":[{
+            "time_interval": 60,
             "starting": "0:0:0",
-            "endin": "24:0:0"
-        },
-        "L-30":{
-            "cadence": 60,
+            "endin": "24:0:0",
+            "stop_pattern": "local",
+            "calendar_patterns": ["weekday"]
+        }],
+        "L-30":[{
+            "time_interval": 60,
             "starting": "0:0:0",
-            "endin": "24:0:0"
-        },
-    },
-    "Line-info-express": {
-        "L-1":{
-            "cadence": 60,
-            "starting": "8:50:00",
-            "ending": "23:45:12"
-        },
-        "L-2":{
-            "cadence": 60,
-            "starting": "8:37:00",
-            "ending": "23:30:00"
-        }
-        
-    },
-    "Line-info-rapid": {
-        "L-1":{
-            "cadence": 120,
-            "starting": "8:42:00",
-            "ending": "23:42:00"
-        },
-        "L-3":{
-            "cadence": 60,
-            "starting": "5:25:00",
-            "ending": "23:25:00"
-        }
+            "endin": "24:0:0",
+            "stop_pattern": "local",
+            "calendar_patterns": ["weekday"]
+        }]
     }
 }

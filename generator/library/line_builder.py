@@ -19,25 +19,15 @@ def build_line(line_id, info, seg_times, template_svg=None, include_icon=True):
     need the actual per-pattern stop list - e.g. generate_stations.py
     building each station's "directions".
     """
-    base_stations = info["line-definition"][line_id]
+    base_stations = info["line-definition"].get(line_id, [])
     stop_time_map = info["station-stop-time"]
     naming_exceptions = info.get("line-naming-exception", {})
-    color_overrides = info.get("line-color", {})
+    colors = info["line-colors"]
+    line_info = info["Line-info"].get(line_id, {})
 
-    tier_data = {}
-    for tier in config.SERVICE_TIERS:
-        tier_cfg = info.get(f"Line-info-{tier}", {})
-        if line_id in tier_cfg:
-            tier_data[tier] = tier_cfg[line_id]
+    patterns = schedule.build_line_patterns(line_id, base_stations, line_info, seg_times, stop_time_map)
 
-    if not tier_data:
-        raise ValueError(f"Line {line_id} has no entry in any Line-info-* table")
-
-    patterns = schedule.build_line_patterns(
-        line_id, base_stations, tier_data, seg_times, stop_time_map
-    )
-
-    line_color = colors.line_color(line_id, color_overrides)
+    line_color = colors.get(line_id, "#000")
 
     icon_svg = ""
     if include_icon:
@@ -61,7 +51,7 @@ def build_line(line_id, info, seg_times, template_svg=None, include_icon=True):
         "id": line_id,
         "label": line_label_text,
         "url": labels.line_url(line_id),
-        "color": {config.COLOR_KEY: line_color},
+        "color": line_color,
         "info_messages": [],
         "icon": icon_svg,
         "stations": base_stations,

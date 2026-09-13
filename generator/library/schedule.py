@@ -118,63 +118,59 @@ def build_pattern_profile(ordered_stations, skip_set, seg_times, stop_time_map):
 # patterns for a whole line
 # ---------------------------------------------------------------------
 
-def build_line_patterns(line_id, base_stations, tier_data, seg_times, stop_time_map):
+def build_line_patterns(line_id, base_stations, line_infos, seg_times, stop_time_map):
     """
-    tier_data: {tier_name: {"cadence": int, "starting": "H:MM:SS",
-                             "ending": "H:MM:SS",
-                             "skipped_station": [optional]}}
-               - only tiers this particular line actually has.
+    line_info: [{"time_interval": int, "starting": "H:MM:SS",
+                   "ending": "H:MM:SS",
+                   "skipped_station": [optional],
+                   "stop_pattern":str
+                   "calendar_pattern": str}]
+                   
 
     Returns a list of pattern dicts. Each dict carries two internal
     helper keys, "_stops" and "_tier", used by line_builder.py /
     generate_stations.py; strip them before writing a pattern to disk.
     """
     patterns = []
-    seen_ids = set()
+    seen_stop_patterns = {}
+    
+    if len(base_stations) == 0: # line with no stations
+        return []
 
-    for tier in config.SERVICE_TIERS:
-        if tier not in tier_data:
-            continue
-        cfg = tier_data[tier]
-        cadence = cfg["cadence"]
-        skip_set = set(cfg.get("skipped_station", []))
+    for data in line_infos:
+        time_interval = data["time_interval"]
+        skip_set = set(data.get("skipped_station", []))
+        orders = [True, False] if data.get("is_reversed", None) is None else [True] if data["is_reversed"] else [False]
+        stop_pattern = data["stop_pattern"]
+        calendar_patterns = data["calendar_patterns"]
+        starting_text= data["starting"]
+        start_minutes = parse_hms_to_minutes(data["starting"])
+        seen_stop_patterns[stop_pattern] = 1 if seen_stop_patterns.get(stop_pattern, None) is None else seen_stop_patterns[stop_pattern] + 1
 
-        for is_reversed in (False, True):
-            direction_letter = (
-                config.DIRECTION_REVERSE if is_reversed else config.DIRECTION_FORWARD
-            )
+        for is_reversed in orders:
+            direction_letter = config.DIRECTION_REVERSE if is_reversed else config.DIRECTION_FORWARD
+            
             ordered = direction_order(base_stations, is_reversed)
-            stops, arrival, departure = build_pattern_profile(
-                ordered, skip_set, seg_times, stop_time_map
-            )
+            stops, arrival, departure = build_pattern_profile( ordered, skip_set, seg_times, stop_time_map)
 
-            pattern_id = f"{line_id}_{direction_letter}_{cadence}"
-            if pattern_id in seen_ids:
-                # Two tiers on the same line happen to share a cadence -
-                # disambiguate rather than silently overwrite one.
-                pattern_id = f"{pattern_id}_{tier}"
-            seen_ids.add(pattern_id)
-
-            start_minutes = parse_hms_to_minutes(cfg["starting"])
-            phase = start_minutes % cadence
-
-            direction_word = "Retour" if is_reversed else "Aller"
+            pattern_id = f"{line_id}_{direction_letter}_{time_interval}_{stop_pattern}_{starting_text}"
+            phase = start_minutes % time_interval
+            
             patterns.append({
                 "id": pattern_id,
-                "label": f"{tier.capitalize()} ({direction_word})",
-                "interval_time": cadence,
+                "label": f"{stop_pattern.capitalize()}_{direction_letter}_{seen_stop_patterns[stop_pattern]}",
+                "interval_time": time_interval,
                 "departure_time": phase,
-                "first_departure": cfg["starting"],
-                "last_departure": cfg["ending"],
-                "stop_pattern": tier,
+                "first_departure": data["starting"],
+                "last_departure": data["ending"],
+                "stop_pattern": stop_pattern,
+                "calendar_patterns": calendar_patterns,
                 "is_reversed": is_reversed,
                 "info_messages": [],
                 "arrival_times": arrival,
                 "departure_times": departure,
                 "_stops": stops,
-                "_tier": tier,
             })
-
     return patterns
 
 
@@ -190,30 +186,30 @@ def build_timetables_for_pattern(pattern, line_label_text):
     """
     start_s = parse_hms_to_seconds(pattern["first_departure"])
     end_s = parse_hms_to_seconds(pattern["last_departure"])
-    cadence_s = pattern["interval_time"] * 60
+    time_interval_s = pattern["interval_time"] * 60
 
     missions = []
     t = start_s
     n = 0
     while t <= end_s:
         arrival_strs = [
-            None if off is None else format_seconds_as_hms(t + off * 60)
+            None if off is None else (t + off * 60)
             for off in pattern["arrival_times"]
         ]
         departure_strs = [
-            None if off is None else format_seconds_as_hms(t + off * 60)
+            None if off is None else (t + off * 60)
             for off in pattern["departure_times"]
         ]
         missions.append({
             "id": f"{pattern['id']}_{n:03d}",
             "label": f"{line_label_text} {pattern['label']} {format_seconds_as_hms(t)}",
             "stop_pattern": pattern["stop_pattern"],
-            "calendar_pattern": config.DEFAULT_CALENDAR_PATTERN,
+            "calendar_patterns": pattern["calendar_patterns"],
             "info_messages": [],
             "arrival_times": arrival_strs,
             "departure_times": departure_strs,
         })
-        t += cadence_s
+        t += time_interval_s
         n += 1
 
     return missions
