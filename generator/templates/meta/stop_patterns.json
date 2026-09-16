@@ -1,0 +1,7 @@
+{
+	"stop_patterns":[
+		"local",
+		"express",
+		"rapid"
+	]
+}

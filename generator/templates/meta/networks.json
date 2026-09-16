@@ -1,0 +1,11 @@
+{
+	"networks" : [
+		{
+			"is_local" : true,
+			"id": "R_BRE",
+			"label":"Réseau regional de nouvelle bretagne",
+			"version": "0.0.1",
+			"URL" : "/networks"
+		}
+	]
+}

@@ -5,7 +5,7 @@ generate_stations.py so both output types are always derived from
 exactly the same computation - stations never disagree with lines about
 which trains stop where.
 """
-from . import config, ids, labels, colors, schedule
+from . import config, ids, labels, colors as Colors , schedule
 
 
 def build_line(line_id, info, seg_times, template_svg=None, include_icon=True):
@@ -28,6 +28,7 @@ def build_line(line_id, info, seg_times, template_svg=None, include_icon=True):
     patterns = schedule.build_line_patterns(line_id, base_stations, line_info, seg_times, stop_time_map)
 
     line_color = colors.get(line_id, "#000")
+    easy_color = Colors.switch_rgb_channels(line_color, "BGR")
 
     icon_svg = ""
     if include_icon:
@@ -51,7 +52,7 @@ def build_line(line_id, info, seg_times, template_svg=None, include_icon=True):
         "id": line_id,
         "label": line_label_text,
         "url": labels.line_url(line_id),
-        "color": line_color,
+        "color": { "default": line_color, "easy": easy_color },
         "info_messages": [],
         "icon": icon_svg,
         "stations": base_stations,

@@ -1,0 +1,7 @@
+{
+	"calendar_patterns": [
+		"weekday",
+		"week-end",
+		"31.12"
+	]
+}

@@ -19,8 +19,8 @@ def line_label(line_id, naming_exceptions=None):
 
 
 def station_url(station_id):
-    return config.STATION_URL_TEMPLATE.format(num=numeric_part(station_id))
+    return config.STATION_URL_TEMPLATE.format(num=station_id)
 
 
 def line_url(line_id):
-    return config.LINE_URL_TEMPLATE.format(num=numeric_part(line_id))
+    return config.LINE_URL_TEMPLATE.format(num=line_id)

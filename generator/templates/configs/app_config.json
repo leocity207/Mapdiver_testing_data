@@ -1,0 +1,5 @@
+{
+	"HAVE_NETWORK_MAP": true,
+	"HAVE_LINE_TIMETABLE": true,
+	"HAVE_STATION_SCHEDULES": true
+}

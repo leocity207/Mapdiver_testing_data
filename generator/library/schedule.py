@@ -105,10 +105,10 @@ def build_pattern_profile(ordered_stations, skip_set, seg_times, stop_time_map):
         travel = sum(
             segment_time(seg_times, ordered_stations[i], ordered_stations[i + 1])
             for i in range(prev_idx, this_idx)
-        )
+        ) * 60
         arrival[pos] = departure[pos - 1] + travel
         if pos != last:
-            departure[pos] = arrival[pos] + stop_time_map.get(stops[pos], 0)
+            departure[pos] = arrival[pos] + stop_time_map.get(stops[pos], 0) * 60
         # else: terminus - no further departure, stays None
 
     return stops, arrival, departure
@@ -159,10 +159,10 @@ def build_line_patterns(line_id, base_stations, line_infos, seg_times, stop_time
             patterns.append({
                 "id": pattern_id,
                 "label": f"{stop_pattern.capitalize()}_{direction_letter}_{seen_stop_patterns[stop_pattern]}",
-                "interval_time": time_interval,
-                "departure_time": phase,
-                "first_departure": data["starting"],
-                "last_departure": data["ending"],
+                "interval_time": time_interval * 60,
+                "departure_time": phase * 60,
+                "first_departure": parse_hms_to_seconds(data["starting"]),
+                "last_departure": parse_hms_to_seconds(data["ending"]),
                 "stop_pattern": stop_pattern,
                 "calendar_patterns": calendar_patterns,
                 "is_reversed": is_reversed,
@@ -184,8 +184,8 @@ def build_timetables_for_pattern(pattern, line_label_text):
     trains: every departure from first_departure to last_departure,
     stepped by interval_time, each with absolute clock times per stop.
     """
-    start_s = parse_hms_to_seconds(pattern["first_departure"])
-    end_s = parse_hms_to_seconds(pattern["last_departure"])
+    start_s = pattern["first_departure"]
+    end_s = pattern["last_departure"]
     time_interval_s = pattern["interval_time"] * 60
 
     missions = []
@@ -201,6 +201,7 @@ def build_timetables_for_pattern(pattern, line_label_text):
             for off in pattern["departure_times"]
         ]
         missions.append({
+            "is_reversed": pattern["is_reversed"],
             "id": f"{pattern['id']}_{n:03d}",
             "label": f"{line_label_text} {pattern['label']} {format_seconds_as_hms(t)}",
             "stop_pattern": pattern["stop_pattern"],

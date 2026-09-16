@@ -1,0 +1,5 @@
+{	
+	"id" : "weekday",
+	"label": "semaine",
+	"is_exceptional" : false
+}
