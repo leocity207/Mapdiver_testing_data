@@ -5,7 +5,6 @@ TEMPLATE_DIR = Path(__file__).parent.parent / "templates"
 
 FOLDERS_TO_COPY_TO_DATA = [
     "calendar_patterns",
-    "networks",
     "stop_patterns"
 ]
 

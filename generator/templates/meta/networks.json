@@ -2,8 +2,8 @@
 	"networks" : [
 		{
 			"is_local" : true,
-			"id": "R_BRE",
-			"label":"Réseau regional de nouvelle bretagne",
+			"id": "R_TEST",
+			"label":"Réseau de tests",
 			"version": "0.0.1",
 			"URL" : "/networks"
 		}
