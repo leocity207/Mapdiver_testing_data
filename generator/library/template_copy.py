@@ -9,10 +9,10 @@ FOLDERS_TO_COPY_TO_DATA = [
 ]
 
 IMAGES = [
-    Path("images") / "map.svg",
-    Path("images") / "logo.svg",
-    Path("images") / "favicon.ico",
-    Path("images") / "train-animation.svg",
+    Path("image") / "map.svg",
+    Path("image") / "logo.svg",
+    Path("image") / "favicon.ico",
+    Path("image") / "train-animation.svg",
 ]
 
 META_FILES = [
@@ -25,7 +25,7 @@ META_FILES = [
     "territories.json",
 ]
 
-STYLES_FOLDER = Path("styles")
+STYLES_FOLDER = Path("style")
 
 CONFIGS_FILES = [
     "app_config.json",
@@ -47,7 +47,7 @@ def copy_template_files(output_dir: str) -> None:
     for folder in FOLDERS_TO_COPY_TO_DATA:
         copy_folder(TEMPLATE_DIR / folder, output_path / "data" / folder)
 
-    (output_path / "images").mkdir(parents=True, exist_ok=True)
+    (output_path / "image").mkdir(parents=True, exist_ok=True)
     for image in IMAGES:
         shutil.copyfile(TEMPLATE_DIR / image, output_path / image)
         
