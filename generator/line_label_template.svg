@@ -1,2 +1,9 @@
 <svg width="30" height="20" version="1.1" viewBox="0 0 7.9375 5.2917" xmlns="http://www.w3.org/2000/svg">
-    <g stroke-linecap="round" stroke-linejoin="round"><rect width="7.9375" height="5.2917" rx="0" ry="2.6458" fill="{COLOR}" stroke-width="4.0697"/><text x="0.64353102" y="4.6843238" fill="#ffffff" font-family="sans-serif" font-size="5.6312px" stroke-width="14.782" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal" xml:space="preserve"><tspan x="0.64353102" y="4.6843238" fill="#ffffff" font-family="Sans" font-size="5.6312px" stroke-width="14.782" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal">{NUMBER}</tspan></text></g></svg>
+    <g stroke-linecap="round" stroke-linejoin="round">
+        <rect width="7.9375" height="5.2917" rx="0" ry="2.6458" fill="{COLOR}" stroke-width="4.0697"/>
+        <text x="0.64353102" y="4.6843238" fill="#ffffff" font-family="sans-serif" font-size="5.6312px" stroke-width="14.782" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal" xml:space="preserve">
+            <tspan x="0.64353102" y="4.6843238" fill="#ffffff" font-family="Sans" font-size="5.6312px" stroke-width="14.782" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal">{NUMBER}
+            </tspan>
+        </text>
+    </g>
+</svg>
