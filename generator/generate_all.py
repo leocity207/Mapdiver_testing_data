@@ -14,14 +14,13 @@ from pathlib import Path
 from library import io_utils, schedule, line_builder, station_builder, template_copy
 
 def main():
-    if len(sys.argv) != 2:
+    if len(sys.argv) != 1:
         print(
-            "Usage: python generate_all.py "
-            "<output_dir>"
+            "Usage: python generate_all.py"
         )
         sys.exit(1)
 
-    out_dir = Path(sys.argv[1])
+    out_dir = Path(__file__).parent.parent
 
     info = io_utils.load_info(Path(__file__).parent / "info.json")
     template_svg = io_utils.load_svg_template(Path(__file__).parent / "line_label_template.svg")
