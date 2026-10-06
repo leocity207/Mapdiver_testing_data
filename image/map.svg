@@ -211,27 +211,27 @@
     <path
        style="fill:none;fill-opacity:1;stroke:#ce367f;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
        d="M 3.0199845,56.014816 H 10.957485"
-       id="L-L_23" />
+       id="L-L_24" />
     <path
        style="fill:none;fill-opacity:1;stroke:#ce365f;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
        d="M 3.0199845,58.660649 H 10.957485"
-       id="L-L_24" />
+       id="L-L_25" />
     <path
        style="fill:none;fill-opacity:1;stroke:#ce3638;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
        d="M 3.0199845,61.306483 H 10.957485"
-       id="L-L_25" />
+       id="L-L_26" />
     <path
        style="fill:none;fill-opacity:1;stroke:#c2c2c2;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
        d="M 3.0199845,63.952316 H 10.957485"
-       id="L-L_26" />
+       id="L-L_27" />
     <path
        style="fill:none;fill-opacity:1;stroke:#828282;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
        d="M 3.0199845,66.598149 H 10.957485"
-       id="L-L_27" />
+       id="L-L_28" />
     <path
        style="fill:none;fill-opacity:1;stroke:#4d4d4d;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
        d="M 3.0199845,69.243983 H 10.957485"
-       id="L-L_28" />
+       id="L-L_29" />
     <path
        style="fill:none;fill-opacity:1;stroke:#181818;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
        d="M 3.0199845,71.889816 H 10.957485"
@@ -239,21 +239,20 @@
     <path
        style="fill:none;fill-opacity:1;stroke:#ce369a;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
        d="M 3.0199845,53.368983 H 10.957485"
-       id="L-L_30" />
+       id="L-L_23" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="line-label"
      inkscape:label="line-label"
      sodipodi:insensitive="true">
-    <g
-       id="LT-L_1-0">
+    <g >
       <path
          style="fill:none;fill-opacity:1;stroke:#ff0a0a;stroke-width:8.89836;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          d="m 22.705431,-18.65312 h 9.887054"
-         id="path8-43" />
+         id="LT-L_1-0" />
       <text
-         xml:space="preserve"
+         class="event-disable"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.81223px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.3046;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          x="25.124254"
          y="-15.489552"
@@ -264,14 +263,13 @@
            x="25.124254"
            y="-15.489552">1</tspan></text>
     </g>
-    <g
-       id="LT-L_1-1">
+    <g>
       <path
          style="fill:none;fill-opacity:1;stroke:#ff0a0a;stroke-width:8.89836;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          d="m 205.26793,-97.94457 h 9.88705"
-         id="path8-43-0" />
+         id="LT-L_1-1" />
       <text
-         xml:space="preserve"
+         class="event-disable"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.81223px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.3046;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          x="207.68675"
          y="-94.780998"
@@ -282,14 +280,13 @@
            x="207.68675"
            y="-94.780998">1</tspan></text>
     </g>
-    <g
-       id="LT-L_2-0">
+    <g>
       <path
          style="fill:none;fill-opacity:1;stroke:#0a37ff;stroke-width:8.89836;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          d="m 190.49999,37.041667 h 9.88706"
-         id="path8-43-3" />
+         id="LT-L_2-0" />
       <text
-         xml:space="preserve"
+         class="event-disable"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.81223px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.3046;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          x="192.91881"
          y="40.205238"
@@ -300,14 +297,13 @@
            x="192.91881"
            y="40.205238">2</tspan></text>
     </g>
-    <g
-       id="LT-L_2-1">
+    <g>
       <path
          style="fill:none;fill-opacity:1;stroke:#0a37ff;stroke-width:8.89836;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          d="m 106.48766,-174.62497 h 9.88705"
-         id="path8-43-12" />
+         id="LT-L_2-1" />
       <text
-         xml:space="preserve"
+         class="event-disable"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.81223px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.3046;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          x="108.90648"
          y="-171.46141"
@@ -318,14 +314,13 @@
            x="108.90648"
            y="-171.46141">2</tspan></text>
     </g>
-    <g
-       id="LT-L_3-1">
+    <g>
       <path
          style="fill:none;fill-opacity:1;stroke:#fffb0a;stroke-width:8.89836;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          d="m 23.812499,10.583333 h 9.887054"
-         id="path8-43-1" />
+         id="LT-L_3-1" />
       <text
-         xml:space="preserve"
+         class="event-disable"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.81223px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#9d9d9d;fill-opacity:1;stroke:none;stroke-width:3.3046;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          x="26.231323"
          y="13.746902"
@@ -336,14 +331,13 @@
            x="26.231323"
            y="13.746902">3</tspan></text>
     </g>
-    <g
-       id="LT-L_3-0">
+    <g>
       <path
          style="fill:none;fill-opacity:1;stroke:#fffb0a;stroke-width:8.89836;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          d="m 191.15432,66.145853 h 9.88706"
-         id="path8-43-5" />
+         id="LT-L_3-0" />
       <text
-         xml:space="preserve"
+         class="event-disable"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.81223px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#9d9d9d;fill-opacity:1;stroke:none;stroke-width:3.3046;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          x="193.57314"
          y="69.309425"
@@ -354,14 +348,13 @@
            x="193.57314"
            y="69.309425">3</tspan></text>
     </g>
-    <g
-       id="LT-L_4">
+    <g>
       <path
          style="fill:none;fill-opacity:1;stroke:#ce3636;stroke-width:2.38125;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          d="M -34.39583,-158.75 H -31.75"
-         id="path8" />
+         id="LT-L_4" />
       <text
-         xml:space="preserve"
+         class="event-disable"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.3582px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.88433;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          x="-33.748539"
          y="-157.90341"
@@ -372,14 +365,13 @@
            x="-33.748539"
            y="-157.90341">4</tspan></text>
     </g>
-    <g
-       id="LT-L_5">
+    <g>
       <path
          style="fill:none;fill-opacity:1;stroke:#ce5d36;stroke-width:2.38125;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          d="m -34.395832,-156.10417 h 2.64583"
-         id="path8-5" />
+         id="LT-L_5" />
       <text
-         xml:space="preserve"
+         class="event-disable"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.3582px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.88433;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          x="-33.651608"
          y="-155.20473"
@@ -390,14 +382,13 @@
            x="-33.651608"
            y="-155.20473">5</tspan></text>
     </g>
-    <g
-       id="LT-L_6">
+    <g>
       <path
          style="fill:none;fill-opacity:1;stroke:#cea036;stroke-width:2.38125;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          d="m -34.395832,-153.45833 h 2.64583"
-         id="path8-2" />
+         id="LT-L_6" />
       <text
-         xml:space="preserve"
+         class="event-disable"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.3582px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.88433;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          x="-33.651608"
          y="-152.5589"
@@ -408,14 +399,13 @@
            x="-33.651608"
            y="-152.5589">6</tspan></text>
     </g>
-    <g
-       id="LT-L_7">
+    <g>
       <path
          style="fill:none;fill-opacity:1;stroke:#cecd36;stroke-width:2.38125;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          d="m -34.395834,-150.8125 h 2.64583"
-         id="path8-5-6" />
+         id="LT-L_7" />
       <text
-         xml:space="preserve"
+         class="event-disable"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.3582px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.88433;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          x="-33.651608"
          y="-149.91306"
@@ -426,14 +416,13 @@
            x="-33.651608"
            y="-149.91306">7</tspan></text>
     </g>
-    <g
-       id="LT-L_8">
+    <g>
       <path
          style="fill:none;fill-opacity:1;stroke:#bfce36;stroke-width:2.38125;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          d="m -34.395832,-148.16667 h 2.64583"
-         id="path8-7" />
+         id="LT-L_8" />
       <text
-         xml:space="preserve"
+         class="event-disable"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.3582px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.88433;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          x="-33.651608"
          y="-147.26723"
@@ -444,14 +433,13 @@
            x="-33.651608"
            y="-147.26723">8</tspan></text>
     </g>
-    <g
-       id="LT-L_9">
+    <g>
       <path
          style="fill:none;fill-opacity:1;stroke:#88ce36;stroke-width:2.38125;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          d="m -34.395834,-145.52084 h 2.64583"
-         id="path8-5-1" />
+         id="LT-L_9" />
       <text
-         xml:space="preserve"
+         class="event-disable"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.3582px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.88433;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          x="-33.651608"
          y="-144.6214"
@@ -467,14 +455,13 @@
            y="-141.67365"
            id="tspan9" /></text>
     </g>
-    <g
-       id="LT-L_10">
+    <g>
       <path
          style="fill:none;fill-opacity:1;stroke:#4fce36;stroke-width:2.38125;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          d="m -34.395832,-142.875 h 2.64583"
-         id="path8-6" />
+         id="LT-L_10" />
       <text
-         xml:space="preserve"
+         class="event-disable"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.3582px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.88433;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          x="-34.605713"
          y="-141.97556"
@@ -485,14 +472,13 @@
            x="-34.605713"
            y="-141.97556">10</tspan></text>
     </g>
-    <g
-       id="LT-L_11">
+    <g>
       <path
          style="fill:none;fill-opacity:1;stroke:#36ce52;stroke-width:2.38125;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          d="m -34.395834,-140.22917 h 2.64583"
-         id="path8-5-9" />
+         id="LT-L_11" />
       <text
-         xml:space="preserve"
+         class="event-disable"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.3582px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.88433;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          x="-34.605713"
          y="-139.31322"
@@ -503,14 +489,13 @@
            x="-34.605713"
            y="-139.31322">11</tspan></text>
     </g>
-    <g
-       id="LT-L_12">
+    <g>
       <path
          style="fill:none;fill-opacity:1;stroke:#36ce62;stroke-width:2.38125;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          d="m -34.395832,-137.58333 h 2.64583"
-         id="path8-0" />
+         id="LT-L_12" />
       <text
-         xml:space="preserve"
+         class="event-disable"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.3582px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.88433;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          x="-34.605713"
          y="-136.66739"
@@ -521,14 +506,13 @@
            x="-34.605713"
            y="-136.66739">12</tspan></text>
     </g>
-    <g
-       id="LT-L_13">
+    <g>
       <path
          style="fill:none;fill-opacity:1;stroke:#36ce7f;stroke-width:2.38125;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          d="m -34.395834,-134.9375 h 2.64583"
-         id="path8-5-7" />
+         id="LT-L_13" />
       <text
-         xml:space="preserve"
+         class="event-disable"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.3582px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.88433;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          x="-34.617722"
          y="-134.02156"
@@ -539,14 +523,13 @@
            x="-34.617722"
            y="-134.02156">13</tspan></text>
     </g>
-    <g
-       id="LT-L_14">
+    <g>
       <path
          style="fill:none;fill-opacity:1;stroke:#36ceb6;stroke-width:2.38125;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          d="m -34.395832,-132.29167 h 2.64583"
-         id="path8-1" />
+         id="LT-L_14" />
       <text
-         xml:space="preserve"
+         class="event-disable"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.3582px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.88433;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          x="-34.614365"
          y="-131.37573"
@@ -557,14 +540,13 @@
            x="-34.614365"
            y="-131.37573">14</tspan></text>
     </g>
-    <g
-       id="LT-L_15">
+    <g>
       <path
          style="fill:none;fill-opacity:1;stroke:#36b8ce;stroke-width:2.38125;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          d="m -34.395834,-129.64584 h 2.64583"
-         id="path8-5-78" />
+         id="LT-L_15" />
       <text
-         xml:space="preserve"
+         class="event-disable"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.3582px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.88433;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          x="-34.614365"
          y="-128.7299"
@@ -575,14 +557,13 @@
            x="-34.614365"
            y="-128.7299">15</tspan></text>
     </g>
-    <g
-       id="LT-L_16">
+    <g>
       <path
          style="fill:none;fill-opacity:1;stroke:#3685ce;stroke-width:2.38125;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          d="m -34.395832,-127 h 2.64583"
-         id="path8-66" />
+         id="LT-L_16" />
       <text
-         xml:space="preserve"
+         class="event-disable"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.3582px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.88433;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          x="-34.648457"
          y="-126.15695"
@@ -593,14 +574,13 @@
            x="-34.648457"
            y="-126.15695">16</tspan></text>
     </g>
-    <g
-       id="LT-L_17">
+    <g>
       <path
          style="fill:none;fill-opacity:1;stroke:#3644ce;stroke-width:2.38125;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          d="m -34.395834,-124.35417 h 2.64583"
-         id="path8-5-14" />
+         id="LT-L_17" />
       <text
-         xml:space="preserve"
+         class="event-disable"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.3582px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.88433;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          x="-34.605713"
          y="-123.51112"
@@ -611,14 +591,13 @@
            x="-34.605713"
            y="-123.51112">17</tspan></text>
     </g>
-    <g
-       id="LT-L_18">
+    <g>
       <path
          style="fill:none;fill-opacity:1;stroke:#4d36ce;stroke-width:2.38125;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          d="m -34.395832,-121.70833 h 2.64583"
-         id="path8-09" />
+         id="LT-L_18" />
       <text
-         xml:space="preserve"
+         class="event-disable"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.3582px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.88433;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          x="-34.605713"
          y="-120.79239"
@@ -629,14 +608,13 @@
            x="-34.605713"
            y="-120.79239">18</tspan></text>
     </g>
-    <g
-       id="LT-L_19">
+    <g>
       <path
          style="fill:none;fill-opacity:1;stroke:#6636ce;stroke-width:2.38125;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          d="m -34.395834,-119.0625 h 2.64583"
-         id="path8-5-0" />
+         id="LT-L_19" />
       <text
-         xml:space="preserve"
+         class="event-disable"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.3582px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.88433;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          x="-34.605713"
          y="-118.14655"
@@ -647,14 +625,13 @@
            x="-34.605713"
            y="-118.14655">19</tspan></text>
     </g>
-    <g
-       id="LT-L_20">
+    <g>
       <path
          style="fill:none;fill-opacity:1;stroke:#9236ce;stroke-width:2.38125;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          d="m -34.395832,-116.41667 h 2.64583"
-         id="path8-3" />
+         id="LT-L_20" />
       <text
-         xml:space="preserve"
+         class="event-disable"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.3582px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.88433;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          x="-34.605713"
          y="-115.50072"
@@ -665,14 +642,13 @@
            x="-34.605713"
            y="-115.50072">20</tspan></text>
     </g>
-    <g
-       id="LT-L_21">
+    <g>
       <path
          style="fill:none;fill-opacity:1;stroke:#b936ce;stroke-width:2.38125;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          d="m -34.395834,-113.77084 h 2.64583"
-         id="path8-5-65" />
+         id="LT-L_21" />
       <text
-         xml:space="preserve"
+         class="event-disable"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.3582px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.88433;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          x="-34.598999"
          y="-112.92778"
@@ -683,14 +659,13 @@
            x="-34.598999"
            y="-112.92778">21</tspan></text>
     </g>
-    <g
-       id="LT-L_22">
+    <g>
       <path
          style="fill:none;fill-opacity:1;stroke:#ce36c0;stroke-width:2.38125;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          d="m -34.395832,-111.125 h 2.64583"
-         id="path8-59" />
+         id="LT-L_22" />
       <text
-         xml:space="preserve"
+         class="event-disable"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.3582px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.88433;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          x="-34.598999"
          y="-110.35485"
@@ -701,14 +676,13 @@
            x="-34.598999"
            y="-110.35485">22</tspan></text>
     </g>
-    <g
-       id="LT-L_23">
+    <g>
       <path
          style="fill:none;fill-opacity:1;stroke:#ce369a;stroke-width:2.38125;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          d="m -34.395834,-108.47917 h 2.64583"
-         id="path8-5-00" />
+         id="LT-L_23" />
       <text
-         xml:space="preserve"
+         class="event-disable"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.3582px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.88433;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          x="-34.605713"
          y="-107.56322"
@@ -719,14 +693,13 @@
            x="-34.605713"
            y="-107.56322">23</tspan></text>
     </g>
-    <g
-       id="LT-L_24">
+    <g>
       <path
          style="fill:none;fill-opacity:1;stroke:#ce367f;stroke-width:2.38125;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          d="m -34.395832,-105.83333 h 2.64583"
-         id="path8-50" />
+         id="LT-L_24" />
       <text
-         xml:space="preserve"
+         class="event-disable"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.3582px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.88433;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          x="-34.605713"
          y="-104.99028"
@@ -737,14 +710,13 @@
            x="-34.605713"
            y="-104.99028">24</tspan></text>
     </g>
-    <g
-       id="LT-L_25">
+    <g>
       <path
          style="fill:none;fill-opacity:1;stroke:#ce365f;stroke-width:2.38125;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          d="m -34.395834,-103.1875 h 2.64583"
-         id="path8-5-08" />
+         id="LT-L_25" />
       <text
-         xml:space="preserve"
+         class="event-disable"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.3582px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.88433;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          x="-34.605713"
          y="-102.45692"
@@ -755,14 +727,13 @@
            x="-34.605713"
            y="-102.45692">25</tspan></text>
     </g>
-    <g
-       id="LT-L_26">
+    <g>
       <path
          style="fill:none;fill-opacity:1;stroke:#ce3638;stroke-width:2.38125;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          d="m -34.395832,-100.54167 h 2.64583"
-         id="path8-17" />
+         id="LT-L_26" />
       <text
-         xml:space="preserve"
+         class="event-disable"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.3582px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.88433;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          x="-34.605713"
          y="-99.698608"
@@ -773,14 +744,13 @@
            x="-34.605713"
            y="-99.698608">26</tspan></text>
     </g>
-    <g
-       id="LT-L_27">
+    <g>
       <path
          style="fill:none;fill-opacity:1;stroke:#c2c2c2;stroke-width:2.38125;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          d="m -34.395834,-97.895834 h 2.64583"
-         id="path8-5-91" />
+         id="LT-L_27" />
       <text
-         xml:space="preserve"
+         class="event-disable"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.3582px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.88433;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          x="-34.605713"
          y="-96.979889"
@@ -791,14 +761,13 @@
            x="-34.605713"
            y="-96.979889">27</tspan></text>
     </g>
-    <g
-       id="LT-L_28">
+    <g>
       <path
          style="fill:none;fill-opacity:1;stroke:#828282;stroke-width:2.38125;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          d="m -34.395832,-95.250001 h 2.64583"
-         id="path8-4" />
+         id="LT-L_28" />
       <text
-         xml:space="preserve"
+         class="event-disable"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.3582px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.88433;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          x="-34.591038"
          y="-94.406944"
@@ -809,14 +778,13 @@
            x="-34.591038"
            y="-94.406944">28</tspan></text>
     </g>
-    <g
-       id="LT-L_29">
+    <g>
       <path
          style="fill:none;fill-opacity:1;stroke:#4d4d4d;stroke-width:2.38125;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          d="m -34.395834,-92.604171 h 2.64583"
-         id="path8-5-2" />
+         id="LT-L_29" />
       <text
-         xml:space="preserve"
+         class="event-disable"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.3582px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.88433;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          x="-34.534168"
          y="-91.761108"
@@ -827,14 +795,13 @@
            x="-34.534168"
            y="-91.761108">29</tspan></text>
     </g>
-    <g
-       id="LT-L_30">
+    <g>
       <path
          style="fill:none;fill-opacity:1;stroke:#181818;stroke-width:2.38125;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          d="m -34.395832,-89.958334 h 2.64583"
-         id="path8-58" />
+         id="LT-L_30" />
       <text
-         xml:space="preserve"
+         class="event-disable"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.3582px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.88433;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          x="-34.605713"
          y="-89.042389"

@@ -52,7 +52,7 @@ python generate_all.py sample_data/info.json sample_data/line_label_template.svg
   time — the travel time across it is just the sum of the surrounding
   `interstation-plan` segments, per your instructions.
 - **A pattern's own `arrival_times`/`departure_times`** are relative
-  minute offsets from `0` at the first stop's departure (not clock
+  second offsets from `0` at the first stop's departure (not clock
   times) — this is the generic timing "shape" of the pattern. The first
   stop's arrival and the last stop's departure are `null` (a train
   doesn't "arrive" at its origin or "depart" from its terminus).

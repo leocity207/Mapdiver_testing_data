@@ -79,7 +79,7 @@ def build_pattern_profile(ordered_stations, skip_set, seg_times, stop_time_map):
 
     Returns (stops, arrival_offsets, departure_offsets):
       - stops: ordered_stations with skipped stations removed
-      - arrival_offsets / departure_offsets: ints (minutes) or None,
+      - arrival_offsets / departure_offsets: ints (seconds) or None,
         relative to t=0 at the first stop's departure.
 
     Travel time across a skipped station is just the sum of the
@@ -180,24 +180,24 @@ def build_line_patterns(line_id, base_stations, line_infos, seg_times, stop_time
 
 def build_timetables_for_pattern(pattern, line_label_text):
     """
-    Expands one pattern's generic (relative-minute) profile into actual
+    Expands one pattern's generic (relative-second) profile into actual
     trains: every departure from first_departure to last_departure,
     stepped by interval_time, each with absolute clock times per stop.
     """
     start_s = pattern["first_departure"]
     end_s = pattern["last_departure"]
-    time_interval_s = pattern["interval_time"] * 60
+    time_interval_s = pattern["interval_time"]
 
     missions = []
     t = start_s
     n = 0
     while t <= end_s:
         arrival_strs = [
-            None if off is None else (t + off * 60)
+            None if off is None else (t + off)
             for off in pattern["arrival_times"]
         ]
         departure_strs = [
-            None if off is None else (t + off * 60)
+            None if off is None else (t + off)
             for off in pattern["departure_times"]
         ]
         missions.append({
